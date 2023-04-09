@@ -198,3 +198,24 @@ a.discordapi {
     margin: 0 0 7vh 0;
     text-align: center;
 }
+
+a.ToLang {
+    background-color: black;
+    border-radius: 3vh;
+    float: right;
+    width: 10vh;
+    height: 3vh;
+    z-index: 10;
+    margin: 45vh 0 0 0;
+    color: white;
+    text-decoration: none;
+    font-family: DOHy;
+    text-align: center;
+
+    border: 5px solid transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(#000, #000), 
+    linear-gradient(to left, rgb(36, 36, 36) 0%,rgb(66, 66, 66) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
