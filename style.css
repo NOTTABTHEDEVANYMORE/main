@@ -109,7 +109,7 @@ h2.Text1 {
 }
 
 div.Main {
-    margin: 5vh auto;
+    margin: 15vh auto;
     display: block;
     border-top: 5px solid transparent;
     border-image: linear-gradient(to right, rgb(255, 115, 236) 0%, rgb(255, 102, 0) 100%);
