@@ -124,3 +124,17 @@ p.Heading {
     color: #ffffff;
 
 }
+
+p.DescHead {
+    text-align: left;
+    font-family: DOH;
+    color: white;
+    font-size: 7vh;
+}
+
+p.Desc {
+    text-align: center;
+    font-family: Highway;
+    color: white;
+    font-size: 3vh;
+}
