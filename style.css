@@ -7,7 +7,7 @@
     src: url('BMJUA_ttf.ttf');
 }
 @font-face {
-    font-family: DOH;
+    font-family: DOHy;
     src: url('BMDOHYEON_ttf.ttf');
 }
 @font-face {
@@ -103,7 +103,7 @@ div.Buttons * {
 h2.Text1 {
     text-align: center;
     display: block;
-    margin: -45vh 0 0 0; 
+    margin: -50vh 0 0 0; 
     color: #ffffff;
     width: 100%;
     font-family: Audiowide;
@@ -111,14 +111,13 @@ h2.Text1 {
 }
 
 div.Main {
-    margin: 45vh auto;
+    margin: 50vh auto 0 0;
     display: block;
     border-top: 5px solid transparent;
     border-image: linear-gradient(to right, rgb(255, 115, 236) 0%, rgb(255, 102, 0) 100%);
     border-image-slice: 1;
     background-color: #00000099;
     width: 100%;
-    height: 100vh;
 }
 
 div.Main * {
@@ -132,9 +131,24 @@ div.Main * {
 }
 
 p.Heading {
-    font-family: JUA;
+    font-family: DOHy;
     color: #ffffff;
+    font-size: 4vh;
+    width: 62%;
+}
 
+p.Heading2 {
+    font-family: Highway;
+    color: #ffffff;
+    font-size: 3.5vh;
+    width: 62%;
+}
+
+p.Content {
+    color: white;
+    font-size: 2.5vh;
+    font-family: JUA;
+    width: 62%;
 }
 
 div.Footer {
@@ -167,4 +181,20 @@ p.Foot {
     font-family: JUA;
     margin: 5vh;
     font-size: 2vh;
+}
+
+div.DiscordApis {
+    float: right;
+    width: 23vh;
+}
+
+a.discordapi {
+    font-family: Audiowide;
+    color: white;
+    font-size: 2vh;
+    float: right;
+    height: 40vh;
+    max-width: 300px;
+    margin: 0 0 7vh 0;
+    text-align: center;
 }
