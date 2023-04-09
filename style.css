@@ -43,6 +43,14 @@ body {
     background-image: linear-gradient(to bottom left, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 50%, rgb(141, 79, 255)100%);
 }
 
+img.Banner {
+    display: block;
+    border: 0;
+    outline: 0;
+    margin: -1%;
+    width: 102%;
+}
+
 div.Header {
     width: 0;
     height: 9vh;
@@ -93,7 +101,7 @@ div.Buttons * {
 h2.Text1 {
     text-align: center;
     display: block;
-    margin: 50vh 0 0 0; 
+    margin: -20vh 0 0 0; 
     color: #ffffff;
     width: 100%;
     font-family: Audiowide;
