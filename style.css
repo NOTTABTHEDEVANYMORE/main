@@ -140,7 +140,7 @@ p.DescHead {
     text-align: left;
     font-family: Highway;
     color: white;
-    font-size: 7vh;
+    font-size: 5vh;
     margin: 4vh 4vh;
 }
 
@@ -148,5 +148,5 @@ p.Desc {
     text-align: center;
     font-family: Highway;
     color: white;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
