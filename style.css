@@ -121,7 +121,7 @@ div.Main {
 }
 
 div.Main * {
-    margin: 10px 10px;
+    margin: 4vh 4vh;
     font-size: 3vh;
     -moz-hyphens:auto;
     -ms-hyphens:auto;
