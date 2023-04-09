@@ -112,9 +112,14 @@ div.Main {
 div.Main * {
     margin: 10px 10px;
     font-size: 3vh;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
 }
 
-h2.MainbodyHead {
+p.Heading {
     font-family: JUA;
     color: #ffffff;
 
