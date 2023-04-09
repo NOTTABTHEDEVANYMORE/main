@@ -68,6 +68,7 @@ h1.Header {
     color: rgba(0,0,0,0);
     font-family: Audiowide;
     text-align: center;
+    font-size: 5vh;
     animation-name: texttrans;
     animation-duration: 0.4s;
     animation-delay: 0.3s;
