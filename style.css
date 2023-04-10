@@ -222,7 +222,7 @@ a.ToLang {
 
 div.Sign--Input {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 div.Sign--Input * {
@@ -246,28 +246,26 @@ input.Sign--Input_N {
 img.Sign--Prev_PFP {
     height: 12vh;
     width: 12vh;
-    float: right;
-    margin: -40vh 20vh;
     border-radius: 50%;
+    /* float: left; */ 
 }
 
 input.Sign--Input_PFP {
     width: 12vh;
     height: 3.9vh;
     font-family: JUA;
-    float: right;
-    margin: -23vh 30vh;
+    float: left;
     text-align: center;
 }
 
 p.PFP_Name {
-    width: 15vh;
+    width: 20vh;
     height: 5vh;
     font-family: JUA;
-    float: right;
-    margin: -25vh 18vh;
-    text-align: center;
+    margin: auto;
+    text-align: left;
     color: white;
+    float: right;
 }
 
 div.Required {
@@ -277,11 +275,10 @@ div.Required {
 }
 
 #WDjiodjcosdjo {
-    float: right;
-    margin: -27vh 12vh 0 0;
     font-size: 1.5vh;
-    text-align: center;
+    text-align: left;
     width: 30vh;
+    margin-top: -27vh;
 }
 
 button.Sign--Input_PFP {
@@ -290,5 +287,9 @@ button.Sign--Input_PFP {
     font-family: JUA;
     float: right;
     text-align: center;
-    margin: -23vh 10vh;
+}
+
+div.PFP {
+    margin-top: 5vh;
+    width: 50%;
 }

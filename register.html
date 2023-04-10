@@ -57,13 +57,16 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
             <p class="Content">Email</p>
             <input type="email" name="" id="Email-Register" class="Sign--Input_N">
 
-            <img type="image" src="Default_PFP.png" name="" id="PFPPreview" class="Sign--Prev_PFP">
-            <p id="PFP_Filename" class="PFP_Name">Default PFP</p>
-            <input type="file" onchange="loadFile(this)" name="" id="PFPUpload-Register" class="Sign--Input_PFP"  accept="image/*">
-            <button type="submit" class="Sign--Input_PFP" onclick="ResetFile()">Reset</button>
-            <div class="Required" id="WDjiodjcosdjo">You Can't Change PFP after Sign-Up</div>
-        
-            <button type="submit">Sign Up</button>
+            <div class="PFP">
+                
+                <p class="Content" style="width: 50vh;">ProFile Picture</p>
+
+                <img type="image" src="Default_PFP.png" name="" id="PFPPreview" class="Sign--Prev_PFP">
+                <p id="PFP_Filename" class="PFP_Name">Default PFP</p>
+                <input type="file" onchange="loadFile(this)" name="" id="PFPUpload-Register" class="Sign--Input_PFP"  accept="image/*">
+                <button type="submit" class="Sign--Input_PFP" onclick="ResetFile()">Reset</button>
+                <div class="Required" id="WDjiodjcosdjo">You Can't Change PFP after Sign-Up</div>
+            </div>
         </div>
 
     </div>
