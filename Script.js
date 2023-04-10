@@ -1,5 +1,7 @@
+var file;
+
 function loadFile(input) {
-    var file = input.files[0];	//선택된 파일 가져오기
+    file = input.files[0];	//선택된 파일 가져오기
 
     //미리 만들어 놓은 div에 text(파일 이름) 추가
     var name = document.getElementById('PFP_Filename');
