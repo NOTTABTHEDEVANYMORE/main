@@ -291,5 +291,6 @@ button.Sign--Input_PFP {
 
 div.PFP {
     margin-top: 5vh;
-    width: 50%;
+    width: 80%;
+    max-width: 50vh;
 }
