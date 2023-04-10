@@ -38,10 +38,16 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
         <div class="Sign--Input">
             <div class="Required">*</div>
             <p class="Content">Nickname</p>
-            <input type="text" name="" id="Username-Register" class="Sign--Input_N">
+            <p class="Description">Lengh : 1~18</p>
+            <input type="text" maxlength="18" name="" id="Username-Register" class="Sign--Input_N">
+            
+            
             <div class="Required">*</div>
             <p class="Content">Password</p>
-            <input type="password" name="" id="Password-Register" class="Sign--Input_P">
+            <p class="Description">Password must contain english, number, symbol(*!_?,.)</p>
+            <input type="password" maxlength="20" name="" id="Password-Register" class="Sign--Input_P">
+            
+            
             <div class="Required">*</div>
             <p class="Content">Email</p>
             <input type="email" name="" id="Email-Register" class="Sign--Input_N">

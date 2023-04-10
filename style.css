@@ -226,11 +226,17 @@ div.Sign--Input {
 }
 
 div.Sign--Input * {
-    margin: 1.25vh 3vh;
-    width: 35vh;
+    margin: 0.6vh 3vh;
+    width: 35%;
     border-radius: 1.5vh;
     height: 4vh;
     font-size: 2.5vh;
+}
+
+p.Description {
+    color: white;
+    font-family: Highway;
+    font-size: 1.5vh;
 }
 
 input.Sign--Input_N {
