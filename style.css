@@ -243,20 +243,20 @@ input.Sign--Input_N {
     font-family: DOHy;
 }
 
-input.Sign--Prev_PFP {
+img.Sign--Prev_PFP {
     height: 12vh;
     width: 12vh;
     float: right;
-    margin: -40vh 10vh;
+    margin: -40vh 20vh;
     border-radius: 50%;
 }
 
 input.Sign--Input_PFP {
     width: 12vh;
-    height: 5vh;
+    height: 3.9vh;
     font-family: JUA;
     float: right;
-    margin: -20vh 10vh;
+    margin: -23vh 30vh;
     text-align: center;
 }
 
@@ -265,7 +265,7 @@ p.PFP_Name {
     height: 5vh;
     font-family: JUA;
     float: right;
-    margin: -25vh 8.5vh;
+    margin: -25vh 18vh;
     text-align: center;
     color: white;
 }
@@ -274,4 +274,21 @@ div.Required {
     color: red;
     font-family: JUA;
     margin: 1.5vh 3vh -3vh 2vh;
+}
+
+#WDjiodjcosdjo {
+    float: right;
+    margin: -27vh 12vh 0 0;
+    font-size: 1.5vh;
+    text-align: center;
+    width: 30vh;
+}
+
+button.Sign--Input_PFP {
+    width: 12vh;
+    height: 4vh;
+    font-family: JUA;
+    float: right;
+    text-align: center;
+    margin: -23vh 10vh;
 }
