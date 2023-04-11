@@ -33,6 +33,8 @@ function SU_Submit() {
     var Nickname = document.getElementById('Username-Register');
     var Password = document.getElementById('Password-Register');
 
+
+    SaveImageToDiscordServer(file);
 };
 
 
