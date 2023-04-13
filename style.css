@@ -296,3 +296,8 @@ div.PFP {
     width: 80%;
     max-width: 50vh;
 }
+
+div.Warn {
+    font-family: JUA;
+    color: red;
+}
