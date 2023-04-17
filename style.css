@@ -220,6 +220,10 @@ a.ToLang {
     background-clip: content-box, border-box;
 }
 
+::placeholder{
+    font-family: DOHy;
+}
+
 div.Sign--Input {
     width: 100%;
     height: 100vh;
@@ -300,4 +304,29 @@ div.PFP {
 div.Warn {
     font-family: JUA;
     color: red;
+}
+
+div.Verify {
+    width: 90%;
+    margin: 0 0.5%;
+}
+
+div.Verify *{
+    float: left;
+    max-width: 300px;
+}
+
+input.VFCTI {
+    display: block;
+    font-family: DOHy;
+    font-size: 60%;
+    width: 45%;
+    height: 5vh;
+}
+
+#Verification {
+    visibility: hidden;
+    width: 44%;
+    height: 4.5vh;
+    margin: 0.5vh -40%;
 }

@@ -38,31 +38,31 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
         <div class="Sign--Input">
             <div class="Required">*</div>
             <p class="Content">Nickname</p>
-            <p class="Description">Lengh : 1~18</p>
-            <input type="text" maxlength="18" name="" id="Username-Register" class="Sign--Input_N">
-            <div class="Warn" id="">W</div>
+            <p class="Description">Lengh : 1~18 can't contain spaces and symbol(except _)</p>
+            <input type="text" placeholder="ex: tab_the_dev" maxlength="18" name="" id="Username-Register" class="Sign--Input_N" required>
+            <div class="Warn" id=""></div>
             
             <div class="Required">*</div>
             <p class="Content">Password</p>
             <p class="Description">Password must contain english, number, symbol(*!_?,.)</p>
-            <input type="password" maxlength="20" name="" id="Password-Register" class="Sign--Input_P">
+            <input type="password" placeholder="3 ~ 20" maxlength="20" name="" id="Password-Register" class="Sign--Input_P" required>
             
             
             <div class="Required">*</div>
             <p class="Content">Confirm Password</p>
-            <input type="password" maxlength="20" name="" id="Password-Register" class="Sign--Input_P">
+            <input type="password" placeholder="repeat password" maxlength="20" name="" id="Confirm-Password-Register" class="Sign--Input_P" required>
             
             
             <div class="Required">*</div>
             <p class="Content">Email</p>
             <p class="Description">ex. kimhui90277@gmail.com</p>
-            <input type="email" name="" id="Email-Register" class="Sign--Input_N">
+            <input type="email" placeholder="Enter Your Email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" name="" id="Email-Register" class="Sign--Input_N" required>
 
             <div class="Verify">
-                
+                <input type="button" onclick="this.style.visibility='hidden';" value="Send Verification Code" class="VFCTI">
+                <input type="text" name="Verify" id="Verification">
             </div>
 
-            <!--
 
 
             <div class="PFP">
@@ -75,7 +75,6 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
                 <button type="submit" class="Sign--Input_PFP" onclick="ResetFile()">Reset</button>
                 <div class="Required" id="WDjiodjcosdjo">You Can't Change PFP after Sign-Up</div>
             </div>
-            -->
         </div>
 
     </div>

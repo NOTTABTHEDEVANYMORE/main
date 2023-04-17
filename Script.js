@@ -37,7 +37,12 @@ function SU_Submit() {
     SaveImageToDiscordServer(file);
 };
 
-
+function SendCode() {
+    var CodeInput = document.getElementById('Verification');
+    var befBtn = document.getElementsByClassName('VFCTI');
+    CodeInput.visiblity = visible;
+    befBtn.visiblity = hidden;
+};
 
 
 
