@@ -39,9 +39,9 @@ function SU_Submit() {
 
 function SendCode() {
     var CodeInput = document.getElementById('Verification');
-    var befBtn = document.getElementsByClassName('VFCTI');
-    CodeInput.visiblity = visible;
-    befBtn.visiblity = hidden;
+    CodeInput.style.visibility = 'visible';
+    var AftBtn = document.getElementById('REVEFBTN');
+    AftBtn.style.visibility = 'visible';
 };
 
 

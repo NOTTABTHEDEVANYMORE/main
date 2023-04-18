@@ -59,8 +59,9 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
             <input type="email" placeholder="Enter Your Email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" name="" id="Email-Register" class="Sign--Input_N" required>
 
             <div class="Verify">
-                <input type="button" onclick="this.style.visibility='hidden';" value="Send Verification Code" class="VFCTI">
+                <input type="button" onclick="this.style.visibility='hidden'; SendCode();" value="Send Verification Code" class="VFCTI">
                 <input type="text" name="Verify" id="Verification">
+                <input type="button" onclick="" value="Re-Send Verification Code" class="REVFCTI" id="REVEFBTN">
             </div>
 
 

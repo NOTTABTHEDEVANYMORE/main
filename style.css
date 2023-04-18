@@ -324,9 +324,19 @@ input.VFCTI {
     height: 5vh;
 }
 
+input.REVFCTI {
+    display: block;
+    font-family: DOHy;
+    font-size: 60%;
+    width: 45%;
+    height: 5vh;
+    margin: 0.5vh 0%;
+    visibility: hidden;
+}
+
 #Verification {
     visibility: hidden;
     width: 44%;
     height: 4.5vh;
-    margin: 0.5vh -40%;
+    margin: 0.5vh -24%;
 }
