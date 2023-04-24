@@ -312,8 +312,8 @@ div.Verify {
 }
 
 div.Verify *{
-    float: left;
     max-width: 300px;
+    float: left;
 }
 
 input.VFCTI {
@@ -322,16 +322,6 @@ input.VFCTI {
     font-size: 60%;
     width: 45%;
     height: 5vh;
-}
-
-input.REVFCTI {
-    display: block;
-    font-family: DOHy;
-    font-size: 60%;
-    width: 45%;
-    height: 5vh;
-    margin: 0.5vh 0%;
-    visibility: hidden;
 }
 
 #Verification {

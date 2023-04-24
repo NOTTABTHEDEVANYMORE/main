@@ -12,6 +12,7 @@
     <link href="https://media.discordapp.net/attachments/1092036925780672582/1094621933980635347/tabthedev.webp?width=676&height=676" rel="shortcut icon" type="image/x-icon">
 
     <script src="Script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body style="
 background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 50%, rgb(141, 79, 255)100%);
@@ -38,7 +39,7 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
         <div class="Sign--Input">
             <div class="Required">*</div>
             <p class="Content">Nickname</p>
-            <p class="Description">Lengh : 1~18 can't contain spaces and symbol(except _)</p>
+            <p class="Description">Lengh : 1~18 | can't contain spaces and symbol(except _)</p>
             <input type="text" placeholder="ex: tab_the_dev" maxlength="18" name="" id="Username-Register" class="Sign--Input_N" required>
             <div class="Warn" id=""></div>
             
@@ -59,9 +60,8 @@ background-image: linear-gradient(to bottom, rgb(0, 89, 255) 0%, rgb(16, 0, 75) 
             <input type="email" placeholder="Enter Your Email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" name="" id="Email-Register" class="Sign--Input_N" required>
 
             <div class="Verify">
-                <input type="button" onclick="this.style.visibility='hidden'; SendCode();" value="Send Verification Code" class="VFCTI">
+                <input type="button" onclick="SendCode();" value="Send Verification Code" class="VFCTI">
                 <input type="text" name="Verify" id="Verification">
-                <input type="button" onclick="" value="Re-Send Verification Code" class="REVFCTI" id="REVEFBTN">
             </div>
 
 
