@@ -53,9 +53,9 @@ function SendCode() {
     var CodeInput = document.getElementById('Verification');
     CodeInput.style.visibility = 'visible';
 
-    document.getElementsByClassName('VFCTI').style
+    document.getElementsByClassName('VFCTI').value = "Re-Send Verification Code";
 
-    sendEmail()
+    sendEmail();
 };
 
 
