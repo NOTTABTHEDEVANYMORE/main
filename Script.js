@@ -1,7 +1,7 @@
 //Sign-up///////////////////////////////////////
 
 var file;
-
+/*
 var Email = {
     send: function(a) {
         return new Promise(function(n, e) {
@@ -38,7 +38,7 @@ var Email = {
         return "withCredentials"in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null,
         t
     }
-};
+};*/
 
 
 function loadFile(input) {
@@ -75,14 +75,14 @@ function SU_Submit() {
 function sendEmail() {
     var elmail = document.getElementById('Email-Register').value;
     console.log(elmail)
-    Email.send({
-    Host : "smtp.mailtrap.io",
-    Username : "tabbasurd",
-    Password : "*kim12340206",
-    To : elmail,
-    From : "tabk123@dev.tab-kth.o-r.kr",
-    Subject : "Verification Email from tab the_dev",
-    Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+        Email.send({
+        Host : "smtp.gmail.com",
+        Username : "mailtrap@tabthedev.github.io",
+        Password : "ed441ffe344ab80eb4c045f2978f6e45",
+        To : elmail,
+        From : "tabk123@dev.tab-kth.o-r.kr",
+        Subject : "Verification Email from tab the_dev",
+        Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
 }).then(
         message => alert(message)
     )
