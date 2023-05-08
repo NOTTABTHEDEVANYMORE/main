@@ -73,14 +73,15 @@ function SU_Submit() {
 };
 
 function sendEmail() {
-    var elmail = document.getElementById('Email-Register').value;
-    console.log(elmail)
+    var elmail = document.getElementById('Email-Register-name').value;
+    var elmailw = document.getElementById('Email-Register-domain').value;
+    console.log(elmail+"@"+elmailw)
         Email.send({
-        Host : "smtp.gmail.com",
-        Username : "mailtrap@tabthedev.github.io",
-        Password : "ed441ffe344ab80eb4c045f2978f6e45",
-        To : elmail,
-        From : "tabk123@dev.tab-kth.o-r.kr",
+        Host : "smtp.elasticemail.com",
+        Username : "tabk123@dev.tab-kth.o-r.kr",
+        Password : "E5AA78FB4635D7E1F06290595BD51484B71C",
+        To : elmail+'@'+elmailw,
+        From : "tabthedev.kro.kr",
         Subject : "Verification Email from tab the_dev",
         Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
 }).then(

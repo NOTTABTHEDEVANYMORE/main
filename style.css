@@ -227,6 +227,8 @@ a.ToLang {
 div.Sign--Input {
     width: 100%;
     height: 100vh;
+    font-family: JUA;
+    color: white;
 }
 
 div.Sign--Input * {
