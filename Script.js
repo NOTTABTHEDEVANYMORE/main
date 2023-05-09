@@ -77,13 +77,18 @@ function sendEmail() {
     var elmailw = document.getElementById('Email-Register-domain').value;
     console.log(elmail+"@"+elmailw)
         Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "tabk123@dev.tab-kth.o-r.kr",
-        Password : "E5AA78FB4635D7E1F06290595BD51484B71C",
-        To : elmail+'@'+elmailw,
-        From : "tabthedev.kro.kr",
-        Subject : "Verification Email from tab the_dev",
-        Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+            Host : "smtp.elasticemail.com",
+            Username : "tabk123@dev.tab-kth.o-r.kr",
+            Password : "E5AA78FB4635D7E1F06290595BD51484B71C",
+            To : elmail+'@'+elmailw,
+            From : "tabthedev.kro.kr",
+            /*Host : "smtp.gmail.com",
+            Username : "tabbasurd@gmail.com",
+            Password : "*kim12340206",
+            To : elmail+'@'+elmailw,
+            From : "tabthedev",*/
+            Subject : "Verification Email from tab the_dev",
+            Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
 }).then(
         message => alert(message)
     )
