@@ -331,3 +331,7 @@ input.VFCTI {
     width: 44%;
     height: 4.5vh;
 }
+
+#editor-container {
+    height: 375px;
+}  

@@ -1,3 +1,9 @@
+//Upload Post///////////////////////////////////////////
+$(document).ready(function() {
+    $('#summernote').summernote();
+  });
+
+
 //Sign-up///////////////////////////////////////
 
 var file;
